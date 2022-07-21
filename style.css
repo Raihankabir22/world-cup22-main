@@ -118,6 +118,7 @@ header {
 .main-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     margin-bottom: 100px;
 }
@@ -130,6 +131,7 @@ header {
 }
 
 .blogs {
+
     width: 250px;
     height: 362px;
     border: 1px solid #E8E8E8;
@@ -221,7 +223,7 @@ footer end
 ..........*/
 
 /* Media Queries */
-@media screen and(max-width:576px) {
+@media screen and(max-width: 576px) {
     .headers {
         background-color: #DD0000;
     }
@@ -253,7 +255,7 @@ footer end
 }
 
 /* labtel device */
-@media screen and(min-width:577px) and(max-width:992px) {
+@media screen and(min-width: 577px) and(max-width: 992px) {
     .headers {
         background-color: #DD0000;
     }
